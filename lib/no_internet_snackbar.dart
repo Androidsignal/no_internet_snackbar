@@ -131,24 +131,25 @@ class _NoInternetSnackBarState extends State<NoInternetSnackBar> {
         children: [
           hasInternet
               ? (widget.onlineImage ??
-              const Icon(Icons.wifi, color: Colors.white, size: 30))
+                  const Icon(Icons.wifi, color: Colors.white, size: 30))
               : (widget.offlineImage ??
-              const Icon(Icons.wifi_off, color: Colors.white, size: 30)),
+                  const Icon(Icons.wifi_off, color: Colors.white, size: 30)),
           const SizedBox(width: 12),
           Expanded(
             child: Text(
               hasInternet ? widget.onlineMessage : widget.offlineMessage,
               style: hasInternet
                   ? (widget.onlineMessageTextStyle ??
-                  const TextStyle(color: Colors.white, fontSize: 16))
+                      const TextStyle(color: Colors.white, fontSize: 16))
                   : (widget.offlineMessageTextStyle ??
-                  const TextStyle(color: Colors.white, fontSize: 16)),
+                      const TextStyle(color: Colors.white, fontSize: 16)),
             ),
           ),
           if (!hasInternet && widget.buttonLabel != null)
             TextButton(
               onPressed: widget.onRetry,
-              child: Text(widget.buttonLabel!, style: const TextStyle(color: Colors.white)),
+              child: Text(widget.buttonLabel!,
+                  style: const TextStyle(color: Colors.white)),
             ),
         ],
       ),
@@ -176,7 +177,7 @@ class _NoInternetSnackBarState extends State<NoInternetSnackBar> {
 
     overlayEntry = OverlayEntry(
       builder: (context) => Positioned(
-        top: widget.position == SnackBarPosition.top ? 40: null,
+        top: widget.position == SnackBarPosition.top ? 40 : null,
         bottom: widget.position == SnackBarPosition.bottom ? 0 : null,
         left: 0,
         right: 0,
@@ -199,7 +200,6 @@ class _NoInternetSnackBarState extends State<NoInternetSnackBar> {
     overlayEntry = null;
   }
 
-
   @override
   void dispose() {
     subscription.cancel();
@@ -210,4 +210,3 @@ class _NoInternetSnackBarState extends State<NoInternetSnackBar> {
   @override
   Widget build(BuildContext context) => widget.child;
 }
-
