@@ -1,4 +1,4 @@
-**# Changelog
+# Changelog
 
 All notable changes to the **no_internet_snackbar** package will be documented in this file.  
 This project follows [Semantic Versioning](https://semver.org/).
