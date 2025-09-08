@@ -29,9 +29,9 @@ A customizable Flutter widget that automatically shows a snackbar-style when the
 ---
 
 ## 📸 Screenshots
-| NoInternetSnackBar DefultScreen| NoInternetSnackBar customizable Screen |
-|-------------------|-----------------------------|
-| | |
+| NoInternetSnackBar Default Screen | NoInternetSnackBar Customizable Screen |
+|----------------------------------|---------------------------------------|
+| ![Default Screen](https://github.com/user-attachments/assets/2ed6e455-2aeb-4fc3-9e38-1ded5d5d25fe) | ![Customizable Screen](https://github.com/user-attachments/assets/eef384c8-27fe-4c5a-a072-c8798a58c0ae) |
 
 ---
 
