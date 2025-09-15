@@ -5,6 +5,10 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [0.0.2] - (2025-Sep-15)
+
+- Updated dependencies to latest versions (`connectivity_plus: ^7.0.0`).
+
 ## [0.0.1] - (2025-Sep-08)
 
 - Initial release of `no_internet_snackbar`
