@@ -4,6 +4,9 @@ All notable changes to the **no_internet_snackbar** package will be documented i
 This project follows [Semantic Versioning](https://semver.org/).
 
 ---
+## [0.0.3] - (2025-Feb-16)
+
+- Updated Documentation in `README.md`.
 
 ## [0.0.2] - (2025-Sep-15)
 
