@@ -1,6 +1,5 @@
 
-[!["dashstack_poster"](https://github.com/user-attachments/assets/f2bc02d8-cb45-41a6-bfc7-b849cda7366b)](https://dashstack.notion.site/Ravi-Vithani-e65c362e335d45ef993225687e4aacb8?pvs=143)
-
+[!["dashstack_poster"](https://github.com/user-attachments/assets/f2bc02d8-cb45-41a6-bfc7-b849cda7366b)](https://www.dashstack.tech/)
 
 #   No Internet SnackBar 
 A customizable Flutter widget that automatically shows a snackbar-style when the internet connection is lost or restored.
